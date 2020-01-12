@@ -25,33 +25,6 @@
 				<text class="num">{{swiperLength}}</text>
 			</view>
 		</view>
-		<!-- 分类 -->
-		<view class="cate-section">
-			<view class="cate-item">
-				<image src="/static/temp/c3.png"></image>
-				<text>环球美食</text>
-			</view>
-			<view class="cate-item">
-				<image src="/static/temp/c5.png"></image>
-				<text>个护美妆</text>
-			</view>
-			<view class="cate-item">
-				<image src="/static/temp/c6.png"></image>
-				<text>营养保健</text>
-			</view>
-			<view class="cate-item">
-				<image src="/static/temp/c7.png"></image>
-				<text>家居厨卫</text>
-			</view>
-			<view class="cate-item">
-				<image src="/static/temp/c8.png"></image>
-				<text>速食生鲜</text>
-			</view>
-		</view>
-		
-		<view class="ad-1">
-			<image src="/static/temp/ad1.jpg" mode="scaleToFill"></image>
-		</view>
 		
 		<!-- 秒杀楼层 -->
 		<view class="seckill-section m-t">
@@ -235,15 +208,12 @@
 				<text class="price">￥{{item.price}}</text>
 			</view>
 		</view>
-		
-
 	</view>
 </template>
 
 <script>
 
 	export default {
-
 		data() {
 			return {
 				titleNViewBackground: '',
@@ -434,41 +404,7 @@
 			transform: translateX(-50%);
 		}
 	}
-	/* 分类 */
-	.cate-section {
-		display: flex;
-		justify-content: space-around;
-		align-items: center;
-		flex-wrap:wrap;
-		padding: 30upx 22upx; 
-		background: #fff;
-		.cate-item {
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			font-size: $font-sm + 2upx;
-			color: $font-color-dark;
-		}
-		/* 原图标颜色太深,不想改图了,所以加了透明度 */
-		image {
-			width: 88upx;
-			height: 88upx;
-			margin-bottom: 14upx;
-			border-radius: 50%;
-			opacity: .7;
-			box-shadow: 4upx 4upx 20upx rgba(250, 67, 106, 0.3);
-		}
-	}
-	.ad-1{
-		width: 100%;
-		height: 210upx;
-		padding: 10upx 0;
-		background: #fff;
-		image{
-			width:100%;
-			height: 100%; 
-		}
-	}
+	
 	/* 秒杀专区 */
 	.seckill-section{
 		padding: 4upx 30upx 24upx;

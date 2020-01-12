@@ -13,7 +13,7 @@
 						"searchInput": {
 							"backgroundColor": "rgba(231, 231, 231,.7)",
 							"borderRadius": "16px",
-							"placeholder": "请输入地址 如：大钟寺",
+							"placeholder": "找你喜欢",
 							"disabled": true,
 							"placeholderColor": "#606266"
 						},
@@ -192,7 +192,7 @@
 				"pagePath": "pages/index/index",
 				"iconPath": "static/tab-home.png",
 				"selectedIconPath": "static/tab-home-current.png",
-				"text": "首页"
+				"text": "随便看看"
 			},
 			{
 				"pagePath": "pages/category/category",
